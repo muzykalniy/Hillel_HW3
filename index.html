@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <section class="container">
+      <h1>Home work #3</h1>
+      <form>
+        <fieldset>
+          <legend>Укажие ваши данные</legend>
+          <label for="name">Ваше имя:</label>
+          <input id="name" type="text" placeholder="Введите своё имя">
+          <br>
+          <label for="surname">Ваша фамилия:</label>
+          <input id="surname" type="text" placeholder="Введите свою фамилию">
+          <br>
+          <label for="email">Электронная почта:</label>
+          <input id="email" type="email" placeholder="Введите свою почту">
+          <br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Данные про ваш курс</legend>
+          <label for="select">Выберите ваш курс</label>
+          <select name="" id="select">
+            <option value="class1" selected disabled>Выберите из списка</option>
+            <option value="class2">Front end Basic</option>
+            <option value="class3">Front end Pro</option>
+          </select>
+          <br>
+          <div class="container_radio">
+            <p>Выполняете ли вы домашние задания:</p>
+            <input type="radio" id="ans1" name="answer" value="Yes">
+            <label for="ans1">Да, выполняю</label>
+            <br>
+            <input type="radio" id="ans2" name="answer" value="No">
+            <label for="ans2">Нет, не выполняю</label>
+          </div>
+          <div class="container_checkbox">
+            <p>Дополнительная информация:</p>
+            <input id="cont" type="checkbox" value="continue">
+            <label for="cont">Буду продолжать обучение</label>
+            <br>
+            <input id="std" type="checkbox" value="study">
+            <label for="std">Дополнительно занимаюсь английским</label>
+          </div>
+        </fieldset>
+        <button type="submit">Отправить</button>
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>
